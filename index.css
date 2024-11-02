@@ -1,0 +1,98 @@
+body {
+    font-family: "Roboto", sans-serif;;
+}
+
+h1 {
+    color:#0F8CDF
+}
+
+.fa-solid {
+    color: #999;
+}
+
+i {
+    cursor: pointer;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 48px
+}
+
+header, main {
+    /* display: flex; */
+    width: 290px;
+    margin: 0 auto;
+}
+
+.tweet-input-area {
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+}
+
+textarea {
+    border: none;
+    resize: none;
+    height: 60px;
+    line-height: 40px;
+    font-size: 18px;
+    scroll-behavior: unset;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 100%;
+    border-radius: 45px;
+    border: none;
+    background-color: #1DA1F2;
+    color: white;
+    padding: 10px 20px; 
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.tweet {
+    border-top: 1px solid lightgray;
+    margin-top: 19px;
+    padding: 20px 0 0 0;
+}
+
+.tweet-inner {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.handle {
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+}
+
+.tweet-details {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.liked {
+    color: red;
+}
+
+.retweeted {
+    color: limegreen;
+}
+
+.hidden {
+    display: none;
+}
+
+.tweet-reply {
+    border-top: 1px solid lightgray;
+    padding: 20px 0 0 0;
+    margin: 10px 0 10px 40px;
+    width: 80%;
+}
